@@ -13,6 +13,7 @@ public class LinkedList implements List {
 
     @Override
     public void add(Integer elem) {
+
         Element tmp = new Element(elem);
         if (first == null) {
             first = tmp;
